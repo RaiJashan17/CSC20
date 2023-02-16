@@ -1,0 +1,21 @@
+	char temp= Character.toLowerCase(letter);
+	        int count=0;
+	try {
+
+	for (int i =0; i<data.length(); i++) {
+	    if (temp == Character.toLowerCase(data.charAt(i))){
+	    	count++;
+	    }
+	}
+
+	} catch (IllegalArgumentException e) {
+	    System.out.println("ERROR");
+	    System.exit(0);
+	}
+	        return count;
+	        
+for (int i = 0; i < letterCap; i++){
+			if (((char) ('a'+i)) == Character.toLowerCase(data.charAt(j)) && j<data.length()){
+			inventory[i]++;
+			j++;
+	}

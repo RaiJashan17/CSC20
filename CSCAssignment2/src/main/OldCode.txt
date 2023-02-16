@@ -1,0 +1,12 @@
+try{
+			if("Genie".equals(creatures.get(alpha).getType()) && !"Dragon".equals(creatures.get(beta).getType())){
+				((genie)creatures.get(alpha)).kill(creatures.get(beta));
+				if (creatures.get(beta).getAlive()==false){
+					creatures.remove(beta);
+			}}
+				if("Genie".equals(creatures.get(alpha).getType()) && "Dragon".equals(creatures.get(beta).getType())){
+					((dragon)creatures.get(beta)).die();
+				}
+				}catch(Exception e){
+					;
+			}
